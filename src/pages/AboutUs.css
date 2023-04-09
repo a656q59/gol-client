@@ -1,0 +1,188 @@
+.imag-containe{
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* height: 70vh; */
+    position: relative;
+}
+.imag-containe>.world-map-image{
+    position: absolute;
+    left:2%;
+    height:90%;
+    width:90%;
+    z-index: -1;
+}
+.concentric-circle-container{
+    /* border: 1px solid blue; */
+    height: 50vh;
+}
+.concentric-circle-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+}
+.concentric-circle1{
+    position: absolute;
+    border:1px dashed rgba(5, 100, 153, 0.8);
+    height: 15%;
+    width: 8%;
+    border-radius: 50%;
+    /* top: 12rem;
+    left:30rem; */
+    opacity: 0.5;
+}
+
+.our-team-container{
+    background: #F7FDFF;
+    padding: 51px 294px;
+
+}
+.our-team-container-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+    color: #3A3A3A;
+}
+.our-team-container-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5A5A5A;
+}
+
+.people-profile-picture>img{
+    width:100%;
+}
+
+.people-profile-list>img{
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.people-profile-text-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 76px;
+    color: #3282AD;
+}
+
+.people-profile-text-designation{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3A3A3A;
+}
+.people-profile-text-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #5A5A5A;
+}
+.customer-quotes-widget{
+    /* border: 1px solid blue; */
+    /* height: 100%; */
+    background:#F7FDFF;
+    /* position: relative; */
+}
+.customer-quotes-widget-title{
+    padding-left: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+    }
+.customer-quotes-widget-description{
+    padding-left: 10%;
+    width: 50vw;
+    padding-top: 2%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.025em;
+    color: #5A5A5A;
+}
+
+
+
+.col-lg-3>img{
+    /* border: 1px solid blue; */
+    width: 120%;    
+    max-width: 300px;
+}
+
+.col-lg-img1{
+    margin-top: 30%;
+}
+.col-lg-img2{
+    margin-top: 20%;
+}
+.col-lg-img3{
+    margin-top: 10%;
+}
+.col-lg-img4{
+    margin-top: 1%;
+}
+
+.add-something{
+    position: absolute;
+    bottom: 10%;
+    right:10%;
+}
+.certificate-container{
+    margin-top: 20%;
+}
+
+.certificate-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+    color: #3A3A3A;
+}
+.certificate-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#5A5A5A;
+}
+@media screen and (max-width:767px) {
+    .people-profile-list{
+        display: flex;
+        flex-direction: row !important;
+    }
+    /* .customer-quotes-widget{
+        position: 'static';
+    } */
+    
+}
+/* @media screen and (max-width:993px) {
+     .customer-quotes-widget-image-container>.row{
+        display: flex;
+        flex-direction: column;
+    }
+    .row>.col-lg-3>.col-lg-img4{
+        margin-top:0%;
+        padding:0;
+    }
+}  */

@@ -1,0 +1,210 @@
+
+/* .container-1{
+    position:relative;
+}
+.world-map-container{
+    background-image: url('../assets/world_map_PNG28\ 3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: 100%;
+    position:absolute;
+    z-index: -1;
+} */
+
+
+.package-details-container{
+    margin-top: 10%;
+    /* border: 1px solid red; */
+    /* height: 100vh; */
+}
+
+.overview-sub-nav-bar{
+    padding:4%;
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px;
+}
+.overview-sub-nav-bar-item{
+    margin-left: 2%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+.package-profile-img{
+    width: 99%;
+    margin-left: 1%;
+}
+
+.package-description-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 4%;;
+}
+
+.package-description-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5A5A5A;
+}
+
+.package-description>.package-description-text-line{
+     margin-top: 3% ; 
+     /* margin-right:5% !important;  */
+    width: 100%;
+    border: 1px solid #A2A8AB;;
+}
+
+
+.itineary-container{
+    /* border: 2px solid blue; */
+    /* height: 100vh; */
+    padding-top: 3% ;
+}
+
+
+.itineary-container>.row>.col-md-4{
+    border: 2px solid cyan;
+    /* height: 70vh; */
+}
+
+.itineary-container-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.itineary-day-wise-container>.row>.col-md-8{
+    /* border: 2px dashed green; */
+    padding: 0;
+}
+#itineary-container-end-line{
+    width: 58%;
+}
+
+.additional-info-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3A3A3A;
+    margin-bottom:6% ;
+
+}
+.starting-from-box{
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px;
+    margin-bottom: 6%;
+}
+.starting-from-box>span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.start-value {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #3282AD;
+    margin-left: 30px;
+}
+.mem-holiday-notification-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #3A3A3A;
+}
+.mem-holiday-notification-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    color: #3A3A3A;
+}
+.mem-holiday-notification{
+    background: #F7FDFF;    
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.form-container{
+    margin-top:7% ;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+
+#contact-details-header{
+    width:100%
+}
+.contact-details-form>button{
+    background-color: white;
+    color:#3282AD;
+    border: 1px solid #3282AD;
+    width: 100%;
+}
+.or-container>.row{
+margin-top: 5%;}
+.or-container>.row>.col-md-5{
+    margin:0;
+}
+.or-container>.row>.col-md-6{
+        width: 50%;
+        margin:0;
+}
+.or-container>.row>.col-md-1{
+    color: #A2A8AB;
+    width: 1%;
+}
+
+.contact-details-container>button{
+    border: none;
+}
+
+
+.need-help-container{
+    /* border: 4px dashed green; */
+    padding: 4%;
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 5px;
+
+}
+
+.need-help-text>div>.text, .need-help-Header{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #3A3A3A;
+}
+
+.input-group>span{
+    background-color: #F6FDFF;
+    
+}
+.input-group>input{
+    border-right: none;
+    background-color: #F6FDFF
+}

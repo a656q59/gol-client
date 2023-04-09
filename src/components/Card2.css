@@ -1,0 +1,14 @@
+/* .btn2-container>.btn{
+    border:1px solid blue;
+}
+.btn2-container>span{
+    border:2px dashed green;
+}
+
+.btn2-container{
+    border: 2px solid gold;
+} */
+.btn{
+    background-color:#3282AD;
+    color: white;
+}

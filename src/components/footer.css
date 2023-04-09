@@ -1,0 +1,85 @@
+.container-5{
+    position: relative;
+}
+
+
+.dowload-app-banner{
+    background-color: #000000;
+    margin-bottom: -7rem;
+    z-index: 200;
+    margin-top: 3cm;
+    /* height:40vh; */
+    border-radius: 10px;
+
+}
+
+.items-list-container{
+    border:1px solid #41A5C1;
+    background-color: #41A5C1;
+    z-index: -1;
+    /* height:60vh; */
+    
+    
+}
+
+.items-list-container>.row{
+    margin-top: 10rem;
+    padding-left: 5rem;
+    
+
+}
+.col-md>img{
+    opacity:1;
+}
+
+.company-title>div{
+    margin-top: 2cm;
+}
+.col-text{
+    margin-top:1rem;
+}
+
+#footer-line{
+    margin-top: 5rem;    
+    margin-left:6rem ;
+    width: 80%;
+    border: 1px solid #fff;
+}
+.copyright-container {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.dowload-app-banner-btn{
+    width: 50%;
+    border: 2px solid white;
+}
+.dowload-app-banner-btn-text{
+    font-size: .5rem;
+}
+.dowload-app-banner-btn-text2{
+    font-size: 1rem;
+
+}
+
+/* .something{
+    border: 2px solid blue;
+    
+} */
+.dowload-app-banner-text{
+    margin-top: 6%;
+}
+
+@media screen and (max-width:767px){
+    .dowload-app-banner{
+        /* height:80vh; */
+        padding: 0;
+
+    }
+    .something{
+        justify-content: center;
+        margin-top: 5rem;
+    }
+}
+

@@ -1,0 +1,43 @@
+.card{
+    box-shadow: 0px 0px 25px rgba(50, 130, 173, 0.15);
+}
+
+
+.profile-img{
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+    border: 2px solid blue;
+    
+}
+
+.card-text-blurb{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A5A5A;
+}
+.card-text-place{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #555555;
+}
+.card-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #222222;
+}
+.review-stars{
+    width:10%;
+    margin-left:8px;
+    margin-bottom: 1rem;
+    
+}
