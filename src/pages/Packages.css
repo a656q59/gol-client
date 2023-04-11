@@ -1,16 +1,45 @@
 
 /* .container-1{
     position:relative;
+}*/
+
+
+
+
+
+.container{
+        /* border: 1px solid red; */
+        /* height: 70vh; */
 }
+
+.container-w{
+    /* border: 4px dashed green; */
+    height: 70vh;
+    position:relative;
+    /* left: 30px; */
+    
+}
+.text-and-search{
+    /* border: 1px dashed red; */
+    position:relative;
+    top:-10%;
+    height: 30vh;
+    /* width: 100%; */
+}
+
+
 .world-map-container{
     background-image: url('../assets/world_map_PNG28\ 3.png');
+    /* border: 5px dashed blue; */
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    background-size: 100%;
+    background-position-x: center;
+    height: 100%;
+    width: 100%;
+    background-size:80rem;
     position:absolute;
     z-index: -1;
-} */
+} 
+
 
 
 .package-details-container{

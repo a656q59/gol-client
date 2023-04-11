@@ -7,7 +7,7 @@ import circle from '../assets/Ellipse 10 (1).png';
 function footer(props) {
     return (
         <div className='mt-5'>
-            <div className="container container-5 ">
+            <div className=" container container-5 ">
                 <div className="dowload-app-banner text-white p-5">
                     <div className="row">
 

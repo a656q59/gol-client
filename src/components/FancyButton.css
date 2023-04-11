@@ -1,0 +1,21 @@
+.fancy-button-input{
+    border-top-left-radius:1.2cm ;
+    border-bottom-left-radius:1.2cm;
+    width: 95%;
+    opacity: 0.4;
+    background: blue;
+    border: 0.5px solid #bdb7b7;
+
+}
+.fancy-button-icon{
+    border-top-right-radius:1.2cm ;
+    border-bottom-right-radius:1.2cm;
+    background-image: url('../assets/Rectangle 17 (1).png');
+    background-repeat: no-repeat;
+    background-position-y:.06cm;
+    background-position-x: .07cm;
+    background-size: 85%;
+    border: 0.5px solid #bdb7b7;
+    opacity: 0.9;
+    border-left: none;
+}

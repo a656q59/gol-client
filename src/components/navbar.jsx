@@ -35,10 +35,10 @@ function navbar(props) {
        
        </ul>    
         <span className="nav-item ">
-            <Link  className="nav-link" to="/">Login</Link>
+            <Link  className="nav-link" to="/login">Login</Link>
         </span>
         <span style={{backgroundColor:'#056499',borderRadius:'20px' }}className="btn btn-primary nav-item px-3 py-2 mx-3">
-            <Link  className="nav-link" to="/">Sign Up</Link>
+            <Link  className="nav-link" to="/signup">Sign Up</Link>
         </span>
     </div>
   </div>

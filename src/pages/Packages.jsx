@@ -10,6 +10,7 @@ import mailIcon from '../assets/Vector (6).png';
 import searchIcon from '../assets/Vector (7).png'
 import TemplateBox from '../components/TemplateBox';
 import worldmap from '../assets/world_map_PNG28 3.png';
+import FancyButton from '../components/FancyButton';
 
 
 function Packages(props) {
@@ -19,18 +20,31 @@ function Packages(props) {
     const text3='Dolphin Watching Tour with Lunch, Water & Soft Drinks';
     const text4='Snorkelling Gear & Photography';
     const text5='In-Room 500ml Bottled Mineral Water Per Day';
+    const text8='Let’s embody your beautiful ideas together, simplify the way you visualize your next big things.';
     return (
         <>
-            <div className="container">
-                <div className="imag-containe">
+             {/* <div className="container">
+                 <div className="imag-containe">
                     <img src={worldmap} alt="world map" className='world-map-image'/>
-                    <div className='concentric-circle-container d-flex justify-content-center align-items-center'>
+                    <div className='concentric-circle-container d-flex  flex-column justify-content-center align-items-center'>
                         <div className="concentric-circle-text">Maldives</div>
-                        
+                        <FancyButton/>
                     </div>
                     
-                </div>
-            </div>
+                </div> 
+            </div>  */}
+                    <div className="container ">
+                        <div className='container-w d-flex flex-column align-items-center justify-content-center'>
+                            <div className="text-and-search  d-flex flex-column justify-content-around text-center mt-5">
+                                <div className="concentric-circle-text">Maldives</div>
+                                <FancyButton/></div>
+                                <div className="world-map-container">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
 
             <div className="container package-details-container">
                 <div className="row">
@@ -83,7 +97,7 @@ function Packages(props) {
                                         <input type="text" className="form-control" id="name" placeholder='Your Name' />
                                         <label htmlFor="email" className="form-label"></label>
                                         <input type="email" className="form-control" id="email" placeholder='Your Email Address' />
-                                        <label htmlFor="email" className="form-label container "></label>
+                                        <label htmlFor="email" className="form-label"></label>
                                         <div className="row">
                                             <div className="col-md-4"><input type="email" className="form-control w-75" id="email" placeholder='+91' /></div>
                                             <div className="col-md-8"><input type="email" className="form-control w-100" id="email" placeholder='Mobile No.' /></div>   
@@ -146,14 +160,14 @@ function Packages(props) {
                             <div className="faq-header"></div>
                             <label htmlFor="Search " className="form-label "></label>
                             <div className="input-group">
-                                <input type="text" className="form-control" placeholder="Username"/>  
+                                <input type="text" className="form-control" placeholder="Search a question"/>  
                                 <span className="input-group-text" id="basic-addon1"><img src={searchIcon} alt="" /></span>                       
                             </div>
                         </div>
-                        <TemplateBox title='Try using our templates!'/>
-                        <TemplateBox title='Try using our templates!'/>
-                        <TemplateBox title='Try using our templates!'/>
-                        <TemplateBox title='Try using our templates!'/>
+                        <TemplateBox title='Try using our templates!' id='1'text={text8}/>
+                        <TemplateBox title='Try using our templates!' id='2' text={text8}/>
+                        <TemplateBox title='Try using our templates!' id='3' text={text8}/>
+                        <TemplateBox title='Try using our templates!'id='4'  text={text8}/>
                     
                     </div>
                 </div>
