@@ -5,7 +5,6 @@ import Footer from './components/footer';
 import { Route,Routes} from 'react-router-dom';
 import AboutUs from './pages/AboutUs';
 import Packages from './pages/Packages';
-import TestComponent from './components/TestComponent';
 import LoginPage from './pages/LoginPage';
 import AdminPage from './pages/AdminPage';
 import BannerChange from './pages/BannerChange';
@@ -17,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <TestComponent/> */}
      <Routes>
       <Route  path="/" element={<Homepage2 />}/>
       <Route  path="/aboutus" element={<AboutUs />}/>

@@ -22,17 +22,7 @@ function Packages(props) {
     const text5='In-Room 500ml Bottled Mineral Water Per Day';
     const text8='Let’s embody your beautiful ideas together, simplify the way you visualize your next big things.';
     return (
-        <>
-             {/* <div className="container">
-                 <div className="imag-containe">
-                    <img src={worldmap} alt="world map" className='world-map-image'/>
-                    <div className='concentric-circle-container d-flex  flex-column justify-content-center align-items-center'>
-                        <div className="concentric-circle-text">Maldives</div>
-                        <FancyButton/>
-                    </div>
-                    
-                </div> 
-            </div>  */}
+        <>           
                     <div className="container ">
                         <div className='container-w d-flex flex-column align-items-center justify-content-center'>
                             <div className="text-and-search  d-flex flex-column justify-content-around text-center mt-5">

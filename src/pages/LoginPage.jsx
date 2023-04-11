@@ -36,30 +36,7 @@ function LoginPage(props) {
             const dat = await axios.post('api/auth/signin', customer)      
                           setRes(dat.data);
                           console.log("value of res state after axios",dat);
-                        localStorage.setItem('token',dat.data.token);
-
-            
-
-
-
-            // .then((response) => {
-            //   setRes(response.data);
-            //     if(res.token!==undefined)
-            //    localStorage.setItem('token',res.token);
-            //   const v = localStorage.getItem('token');
-            //   console.log('token in localstorage',v);
-            //   if(localStorage.getItem('token'))
-            //   redirect('/admin');
-            // //   const smg = localStorage.getItem('token')
-            // //   console.log("coming from validateform of login page",smg)
-            // })
-            // .catch((error) =>{
-            //   console.log("coming from here",error);
-            // });    
-
-
-
-
+                        localStorage.setItem('token',dat.data.token);       
 
          } else {
           const errorData = {};

@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Joi from "joi-browser";
 
 import axios from '../utils/axios';
-import './SignUp.css'
 
 
 function SignUp(props) {

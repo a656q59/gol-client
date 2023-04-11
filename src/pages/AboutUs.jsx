@@ -60,7 +60,7 @@ function AboutUs(props) {
                         <div className="col col-lg-3  col-lg-img3"><img src={rect35} alt="" /></div>
                         <div className="col col-lg-3  col-lg-img4"><img src={rect35} alt="" /></div>
                     </div>
-                    <div className="add-something">adding something</div>
+                    {/* <div className="add-something">adding something</div> */}
 
                 </div>
             </div>
